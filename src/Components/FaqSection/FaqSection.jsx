@@ -2,9 +2,9 @@ import { IoMdAdd } from "react-icons/io";
 
 function FaqSection() {
     return (
-        <div className='flex justify-center items-center mt-20'>
+        <div className='flex justify-center items-center w-auto mt-20  lg:h-[392px] md:h-[506px] sm:h-[769px] mb-20'>
 
-            <div className='grid grid-rows-4 justify-center mb-[50px]'>
+            <div className=' grid grid-rows-4 justify-center mb-[50px] lg:w-[896px] lg:h-[331px] md:w-[686px] md:h-[445px]'>
 
                 <h3 className='w-[389px] h-[33px] text-[27px] leading-[33px] tracking-[0.4px] text-primary font-semibold mx-auto'>
                     Frequently asked questions
@@ -40,7 +40,7 @@ function FaqSection() {
                     </button>
                 </div>
 
-                <div className="mt-[-15px] bg-[#FAF8FF] p-[24px] h-[76px] rounded-[7px]">
+                <div className="mt-[10px] bg-[#FAF8FF] p-[24px] h-[76px] rounded-[7px] ">
 
                     <button type="button"
                         className="w-full text-[22px] font-medium tracking-[0.4px] text-black flex items-center">
