@@ -30,7 +30,7 @@ function NavBar() {
 
         {/* Mobille responsive */}
         {isOpen && (
-        <div className='absolute inline-flex justify-between w-full h-[1000px] top-0 bottom-[-200px] py-[16px] px-[20px] bg-white'>
+        <div className='absolute  inline-flex justify-between w-full h-screen top-0 bottom-[-200px] py-[16px] px-[20px] bg-white animate-slide-in-right'>
 
 
           <ul className='flex  text-black text-[14px] '>
@@ -46,6 +46,22 @@ function NavBar() {
           <RxCross1 onClick={toggle} className='fill-black w-[31px] h-[24px] le-[268px] cursor-pointer mr-8 md:hidden' />
         </div>
         )}
+
+        {/* Mobile responsive */}
+        {/* {isOpen && (
+          <div className='absolute inline-flex justify-between w-full h-screen top-0 bottom-[-200px] py-[16px] px-[20px] bg-white ease-out transition-transform duration-300 animate-move-in-right'>
+            <ul className='flex text-black text-[14px]'>
+              <li className='flex flex-col uppercase gap-[36px]'>
+                <a href="#" className='block font-medium'>home</a>
+                <a href="#" className='block font-medium'>service</a>
+                <a href="#" className='font-medium'>contact us</a>
+                <a href="#" className='font-medium'>About us</a>
+                <a href="#" className='font-medium'>careers</a>
+              </li>
+            </ul>
+            <RxCross1 onClick={toggle} className='fill-black w-[31px] h-[24px] le-[268px] cursor-pointer mr-8 md:hidden' />
+          </div>
+        )} */}
 
       </div>
 

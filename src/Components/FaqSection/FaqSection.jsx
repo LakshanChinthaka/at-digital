@@ -3,7 +3,7 @@ import { IoMdAdd } from "react-icons/io";
 function FaqSection() {
     return (
         // MAIN
-        <div className='flex justify-center items-center  m-[20px] md:m-[42px] lg:m-[152px] xl:m-[297px] mt-20 h-[769px] xl:w-[896px]  lg:h-[392px] md:h-[506px] sm:h-[769px] mb-[100px] '>
+        <div className='flex justify-center  xl:mt-20 items-center  m-[20px] md:m-[42px] lg:m-[152px] xl:m-[297px] mt-20 h-[769px] xl:w-[896px]  lg:h-[392px] md:h-[506px] sm:h-[769px] mb-[100px] '>
 
             {/* FAQ */}
             <div className=' grid grid-rows-4 justify-center mb-[50px] h-[675px] m-auto lg:w-[896px] lg:h-[331px] md:w-[686px] md:h-[445px]'>

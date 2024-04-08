@@ -16,12 +16,11 @@ export default {
       colors: {
         primary:"#6B3CC9",
         Secondary: "#F28D35"
-      }
-    },
-
-    fontFamily: {
-      'nunito': ['nunito', 'sans-serif'],
-      'MyFont': ['"My Font"', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+      },
+      
+      fontFamily:{
+        h3: ['Poppins'],
+      },
     },
   
   },
