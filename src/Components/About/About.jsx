@@ -5,10 +5,10 @@ import LearnMoreBtn from '../Button/LearnMoreBtn'
 
 function About() {
     return (
-        <div className='grid grid-rows-2 mx-auto justify-center mt-[40px] '>
+        <div className='grid grid-rows-2  mx-auto justify-center mt-[40px] '>
 
             {/* Box 1 */}
-            <div className='grid md:grid-cols-2  lg:w-[896px] sm:mt-[-400px] md:mt-[150px] lg:mt-10  xl:w-[1064px] xl:h-[414px] mx-auto lg:h-[349px] md:w-[688px] md:h-[275px]  xl:gap-[108px] md:gap-[20px] h-[572.82px] w-[335px]'>
+            <div className='grid md:grid-cols-2  lg:w-[896px] mt-[200px] sm:mt-[100px] md:mt-[150px] lg:mt-10  xl:w-[1064px] xl:h-[414px] mx-auto lg:h-[349px] md:w-[688px] md:h-[275px]  xl:gap-[108px] md:gap-[20px] h-[572.82px] w-[335px]'>
                 <div>
                     <img className='w-[275px] h-[275.82px] xl:w-[414px] xl:h-[414px] lg:w-[346px] lg:h-[346px] md:w-[275px] md:h-[275px]' src={Computer} alt="Computer" />
                 </div>
@@ -31,7 +31,7 @@ function About() {
 
 
             {/* Box 2 */}
-            <div className='grid md:grid-cols-2  sm:mt-[-100px] md:mt-[100px] mt-10  lg:w-[896px]  xl:w-[1064px] xl:h-[414px] mx-auto lg:h-[349px] md:w-[688px] md:h-[275px]  xl:gap-[108px] md:gap-[20px] h-[572.82px] w-[335px]'>
+            <div className='grid md:grid-cols-2 mt-10 sm:mt-[100px] lg:w-[896px]  xl:w-[1064px] xl:h-[414px] mx-auto lg:h-[349px] md:w-[688px] md:h-[275px]  xl:gap-[108px] md:gap-[20px] h-[572.82px] w-[335px]'>
 
                 {/* Mobile icon */}
                 <div className='md:hidden'>
