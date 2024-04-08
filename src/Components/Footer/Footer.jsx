@@ -7,7 +7,7 @@ function Footer() {
 
                 <div className='md:col-span-2 h-[121px] md:w-[413px] md:h-[102px] gap-[20px]'>
 
-                    <img className='fill-white w-[238.89px] h-[25px]  ' src={Logo} alt="Logo" />
+                    <img className='fill-white w-[238.89px] h-[25px] sm:ml-[-40px] md:ml-[0px] ' src={Logo} alt="Logo" />
 
                     <p className='w-[335px] h-[76px]  md:w-[413px] md:h-[57px] whitespace-normal md:ml-8 mt-5 mb-10 font-normal text-[16px] leading-[19.36px] text-white'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
 
