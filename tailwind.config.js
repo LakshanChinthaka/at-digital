@@ -18,6 +18,11 @@ export default {
         Secondary: "#F28D35"
       }
     },
+
+    fontFamily: {
+      'nunito': ['nunito', 'sans-serif'],
+      'MyFont': ['"My Font"', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+    },
   
   },
 

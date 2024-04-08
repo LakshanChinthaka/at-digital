@@ -8,7 +8,7 @@ function FaqSection() {
             {/* FAQ */}
             <div className=' grid grid-rows-4 justify-center mb-[50px] h-[675px] m-auto lg:w-[896px] lg:h-[331px] md:w-[686px] md:h-[445px]'>
 
-                <h3 className='text-center  w-[334px] h-[33px] bg-red-400 md:-[389px] text-[27px] leading-[33px] tracking-[0.4px] text-primary font-semibold mx-auto'>
+                <h3 className='text-center w-[334px] h-[33px] md:w-[389px] text-[27px] leading-[33px] tracking-[0.4px] text-primary font-semibold mx-auto'>
                     Frequently asked questions
                 </h3>
 

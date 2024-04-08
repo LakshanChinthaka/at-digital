@@ -3,12 +3,14 @@ import React from 'react'
 function NavLink() {
   return (
     <div>
-        <ul className='flex text-white text-[14px] uppercase gap-[28px] pr-20 '>
-            <li className='font-medium'>service</li>
-            <li className='font-medium'>contact us</li>
-            <li className='font-medium'>About us</li>
-            <li className='font-medium'>careers</li>
-        </ul>
+      <ul className='flex text-white text-[14px]  pr-20 '>
+        <li className='flex uppercase gap-[28px]'>
+          <a href="#" className='font-medium'>service</a>
+          <a href="#" className='font-medium'>contact us</a>
+          <a href="#" className='font-medium'>About us</a>
+          <a href="#" className='font-medium'>careers</a>
+        </li>
+      </ul>
     </div>
   )
 }
